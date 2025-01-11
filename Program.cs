@@ -8,7 +8,9 @@ namespace project_03_12_24
         {
             Console.ForegroundColor = ConsoleColor.DarkRed;
             try
-            { 
+            {
+                var array = new IntArray(new int[] { 1, 2, 3, 4, 5 });
+                array.Show("Array:");
             }
             catch (Exception e)
             {
