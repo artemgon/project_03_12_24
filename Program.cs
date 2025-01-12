@@ -8,7 +8,15 @@ namespace project_03_12_24
         {
             Console.ForegroundColor = ConsoleColor.DarkRed;
             try
-            { 
+            {
+                var array = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+                var intArray = new IntArray(array);
+                Console.WriteLine("Even numbers:");
+                intArray.ShowEven();
+                Console.WriteLine();
+                Console.WriteLine("Odd numbers:");
+                intArray.ShowOdd();
+                Console.WriteLine();
             }
             catch (Exception e)
             {
